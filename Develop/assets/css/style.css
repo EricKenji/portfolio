@@ -55,3 +55,23 @@ header nav ul li a {
 }
 
 /* header styling finish */
+
+/* hero styling start */
+.hero {
+  padding: 60px;
+  background-image: url("../images/hero.jpeg");
+  background-size: cover;
+  background-position: 80%;
+  display: flex;
+  justify-content: right;
+  background-attachment:fixed;
+
+}
+
+.hero h2 {
+  font-style: italic;
+  font-size: 30px;
+  color: var(--secondary-color);
+}
+/* hero styling end */
+
