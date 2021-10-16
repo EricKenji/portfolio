@@ -133,6 +133,7 @@ header nav ul li a {
 
 .run img {
   width:100%;
+  height: auto;
 }
 
 .run img:hover {
@@ -146,7 +147,7 @@ header nav ul li a {
 }
 
 .robot {
-  width: 100%;
+  width: 50%;
 }
 
 .robot img {
@@ -177,10 +178,11 @@ header nav ul li a {
   justify-content: space-between;
   width: 100%;
   padding-left: 60px;
+  flex-wrap: wrap;
 }
 
 .contact-info > *{
-  margin: 20px 0;
+  margin: 30px 30px;
   flex: 1;
 
 }
