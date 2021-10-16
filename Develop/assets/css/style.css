@@ -82,14 +82,14 @@ header nav ul li a {
   color: var(--secondary-color);
 }
 
-.title {
+.section-title {
   font-size: 30px;
   border-right: 3px solid;
   padding-right: 20px;
   padding-left: 100px;
 }
 
-.aboutme {
+.title {
   display:flex;
 }
 
@@ -97,3 +97,85 @@ header nav ul li a {
   line-height: 2;
   padding-left: 80px;
 }
+/* about me styling finish */
+
+/* work styling start */
+.mywork {
+  padding: 60px;
+  display:flex;
+}
+
+.pics {
+  justify-content: right;
+  padding-left: 80px;
+}
+
+.run {
+  position:relative;
+}
+
+.text-block {
+  position: absolute;
+  bottom: 20px;
+  right: 20px;
+  background-color: black;
+  color: white;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.run img {
+  width:100%;
+}
+
+.run img:hover {
+  webkit-filter: blur(4px); /* Chrome, Safari, Opera */
+  filter: blur(4px);
+}
+
+.robotfootball {
+  display: flex;
+  width: 100%;
+}
+
+.robot {
+  width: 100%;
+}
+
+.robot img {
+  height: 200px;
+  
+}
+
+/* work styling end */
+
+/* contact section styling start */
+
+
+.contact-me {
+  display: flex;
+  padding: 60px;
+  
+}
+
+.contact-info {
+  display: flex;
+  margin: 20px 0;
+}
+
+.contact-info h2 {
+  font-size: 30px;
+}
+
+.contact-info p {
+  margin: 20px 0;
+}
+
+.email a {
+  margin: 20px 0;
+}
+
+
+
+
+
