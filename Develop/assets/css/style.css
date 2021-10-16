@@ -103,12 +103,13 @@ header nav ul li a {
 .mywork {
   padding: 60px;
   display:flex;
+  color: var(--secondary-color);
 }
 
 .worktitle {
     font-size: 30px;
     border-right: 3px solid;
-    padding-right: 20px;
+    padding-right: 30px;
     padding-left: 100px;
 }
 
@@ -123,17 +124,18 @@ header nav ul li a {
 
 .text-block {
   position: absolute;
-  bottom: 20px;
-  right: 20px;
-  background-color: black;
-  color: white;
-  padding-left: 20px;
-  padding-right: 20px;
+    top: 50%;
+    left: 50%;
+    transform: translate( -50%, -50% );
+    text-align: center;
+    color: white;
+    font-weight: bold;
 }
 
 .run img {
-  width:100%;
+  max-width:100%;
   height: auto;
+  object-fit: cover;
 }
 
 .run img:hover {
@@ -151,8 +153,7 @@ header nav ul li a {
 }
 
 .robot img {
-  height: 200px;
-  
+  max-width:100%;
 }
 
 /* work styling end */
@@ -163,13 +164,13 @@ header nav ul li a {
 .contact-me {
   display: flex;
   padding: 60px;
-  
+  color: var(--secondary-color);
 }
 
 .contacttitle {
   font-size: 30px;
     border-right: 3px solid;
-    padding-right: 20px;
+    padding-right: 30px;
     padding-left: 60px;
 }
 
@@ -192,8 +193,9 @@ header nav ul li a {
   padding-bottom: 30px;
 }
 
-.contact-info p {
-  
+.contact-info a {
+  text-decoration: none;
+  font-size: 20px;
 }
 
 .email a {
