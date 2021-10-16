@@ -82,7 +82,7 @@ header nav ul li a {
   color: var(--secondary-color);
 }
 
-.section-title {
+.aboutmetitle {
   font-size: 30px;
   border-right: 3px solid;
   padding-right: 20px;
@@ -103,6 +103,13 @@ header nav ul li a {
 .mywork {
   padding: 60px;
   display:flex;
+}
+
+.worktitle {
+    font-size: 30px;
+    border-right: 3px solid;
+    padding-right: 20px;
+    padding-left: 100px;
 }
 
 .pics {
@@ -158,17 +165,33 @@ header nav ul li a {
   
 }
 
+.contacttitle {
+  font-size: 30px;
+    border-right: 3px solid;
+    padding-right: 20px;
+    padding-left: 60px;
+}
+
 .contact-info {
   display: flex;
+  justify-content: space-between;
+  width: 100%;
+  padding-left: 60px;
+}
+
+.contact-info > *{
   margin: 20px 0;
+  flex: 1;
+
 }
 
 .contact-info h2 {
   font-size: 30px;
+  padding-bottom: 30px;
 }
 
 .contact-info p {
-  margin: 20px 0;
+  
 }
 
 .email a {
