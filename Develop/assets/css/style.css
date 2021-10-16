@@ -75,3 +75,25 @@ header nav ul li a {
 }
 /* hero styling end */
 
+/* about me styling start */
+.info {
+  padding: 60px;
+  display: flex;
+  color: var(--secondary-color);
+}
+
+.title {
+  font-size: 30px;
+  border-right: 3px solid;
+  padding-right: 20px;
+  padding-left: 100px;
+}
+
+.aboutme {
+  display:flex;
+}
+
+.info p {
+  line-height: 2;
+  padding-left: 80px;
+}
