@@ -149,6 +149,7 @@ header nav ul li a {
   width: 100%;
 }
 
+
 .robot {
   width: 50%;
   position: relative;
@@ -156,6 +157,11 @@ header nav ul li a {
 
 .robot img {
   width: 100%;
+}
+
+.robot img:hover {
+  webkit-filter: blur(4px); /* Chrome, Safari, Opera */
+  filter: blur(4px);
 }
 
 .football {
