@@ -14,3 +14,5 @@ https://erickenji.github.io/horiseon/
 Made by Eric Furukawa
 
 ### Eric Kenji Furukawa
+
+![portfolio pic](https://user-images.githubusercontent.com/16628477/137648865-538bb6d6-c094-4cbe-84c8-2bbe209217a2.png)
