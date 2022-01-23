@@ -8,7 +8,7 @@ A website that offers information on Eric Furukawa's developer work and contact 
 * CSS
 
 ## Website
-https://erickenji.github.io/horiseon/
+https://erickenji.github.io/portfolio/
 
 ## Contribution
 Made by Eric Furukawa
